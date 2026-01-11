@@ -15,6 +15,7 @@ There is a total of 5 datasets:
 - **`page_hierarchy`**(page_id, page_name, product_category, product_id): This table lists all of the pages on the Clique Bait website which are tagged and have data passing through from user interaction events.
 
 ER Diagram:
+
 <img width="715" height="347" alt="127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8" src="https://github.com/user-attachments/assets/36389568-2600-48c3-8b78-bd5af2ab682d" />
 
 ##
