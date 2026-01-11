@@ -8,8 +8,6 @@ Clique Bait is an online platform where marketing campaigns are used to drive us
 
 Evaluate the effectiveness of marketing campaigns by analyzing impression, click, and purchase events to quantify purchase uplift and identify high-performing campaigns for better budget allocation and creative optimization.
 
----
-
 ## About Dataset
 
 There is a total of 5 datasets:
@@ -23,22 +21,27 @@ There is a total of 5 datasets:
 
 <img width="715" height="347" alt="127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8" src="https://github.com/user-attachments/assets/36389568-2600-48c3-8b78-bd5af2ab682d" />
 
-## KPI Framework
-The following KPIs were defined to evaluate campaign performance:
+## User Segmentation
 
+Users were segmented into three mutually exclusive groups to enable uplift and funnel analysis:
+- **Non-exposed users**: users who did not receive any campaign impression
+- **Impression-only users**: users who received at least one impression but did not click
+- **Clickers**: users who clicked on at least one campaign impression
+
+## KPI Framework
+
+The following KPIs were defined to evaluate campaign performance and user conversion behavior:
 - Impression rate
 - Click-through rate (CTR)
 - Purchase conversion rate
 - Purchase uplift by user group
 - Campaign-level performance comparison
 
----
-
 ##  Project Structure
 
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
-| data                |  |
-| sql                  | Clean data, segment users, and compute funnel and uplift metrics using CTEs and conditional aggregation. |
+| data                    | Database schema and reference tables |
+| sql                     | Data cleaning, user segmentation, and funnel & uplift metric computation using CTEs and conditional aggregation. |
 | python                  | Exploratory data analysis and validation, including distribution analysis and time-to-purchase patterns. |
-| powerbi                  | Design a one-page management infographic highlighting key insights. |
+| powerbi                 | One-page management dashboard for campaign performance reporting. |
