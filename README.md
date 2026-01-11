@@ -41,7 +41,7 @@ The following KPIs were defined to evaluate campaign performance and user conver
 
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
-| data                    | Database schema and reference tables |
+| schema.sql              | Database schema and reference tables |
 | sql                     | Data cleaning, user segmentation, and funnel & uplift metric computation using CTEs and conditional aggregation. |
 | python                  | Exploratory data analysis and validation, including distribution analysis and time-to-purchase patterns. |
 | powerbi                 | One-page management dashboard for campaign performance reporting. |
