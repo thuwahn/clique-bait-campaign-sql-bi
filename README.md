@@ -42,7 +42,7 @@ The following KPIs were defined to evaluate campaign performance and user conver
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
 | schema.sql              | Database schema and reference tables |
-| case-study-solution.sql | Answers the original case study questions. |
+| case_study_solution.sql | Answers the original case study questions. |
 | campaign_analysis.sql   | Data cleaning, user segmentation, and funnel & uplift metric computation using CTEs and conditional aggregation. |
 | python                  | Exploratory data analysis and validation, including distribution analysis and time-to-purchase patterns. |
 | powerbi                 | One-page management dashboard for campaign performance reporting. |
