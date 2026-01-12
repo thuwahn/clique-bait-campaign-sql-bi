@@ -11,7 +11,9 @@ JOIN event_identifier USING (event_type)
 WHERE event_name='Purchase';
 ```
 
-
+| **purchase_rate**       |
+|-------------------------|
+| 49.86l              	  | 
 
 ### 2. What is the percentage of visits which view the checkout page but do not have a purchase event?
 
