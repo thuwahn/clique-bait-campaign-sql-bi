@@ -272,16 +272,8 @@ WITH campaigns_analysis AS (
 						 	  WHERE jt.visit_id = j.visit_id 
 							    AND event_name='Purchase'
 				) THEN 1 ELSE 0 END AS purchase,
-			COUNT (CASE WHEN EXISTS (SELECT 1 
-						 			 FROM joined_tables jt 
-						 			 WHERE jt.visit_id = j.visit_id 
-									   AND event_name='Ad Impression'
-				) THEN 1 ELSE 0 END) AS impression,
-			COUNT (CASE WHEN EXISTS (SELECT 1 
-						 			 FROM joined_tables jt 
-						 			 WHERE jt.visit_id = j.visit_id 
-									   AND event_name='Ad Click'
-				) THEN 1 ELSE 0 END) AS click,
+			COUNT (CASE WHEN event_name='Ad Impression'THEN j.visit_id END) AS impression,
+			COUNT (CASE WHEN event_name='Ad Click' THEN j.visit_id END) AS click,
 			STRING_AGG(CASE WHEN j.event_name = 'Add to Cart' THEN j.page_name END, 
 			 	', ' ORDER BY j.sequence_number)  AS cart_products
 	FROM joined_tables j
