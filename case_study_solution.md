@@ -151,6 +151,68 @@ ORDER BY product_name;
 |Salmon					|1559	  |938			|227			  |711			|
 |Tuna					|1515	  |931			|234			  |697			|
 
+#### Additionally, create another table which further aggregates the data for the above points but this time for each product category instead of individual products.
+
+```sql
+CREATE TABLE product_category_details AS
+SELECT 	product_category,
+		COUNT(CASE WHEN event_name='Page View' THEN visit_id END) AS views,
+		COUNT(CASE WHEN event_name='Add to Cart' THEN visit_id END) AS cart_adds,
+		COUNT(CASE WHEN event_name='Add to Cart' AND NOT EXISTS (SELECT 1 
+															  	 FROM joined_tables jt 
+															  	 WHERE jt.visit_id = j.visit_id 
+																   AND event_name='Purchase') 
+			THEN 1 END) AS not_purchases,
+		COUNT(CASE WHEN event_name='Add to Cart' AND EXISTS (SELECT 1 
+														  	 FROM joined_tables jt 
+														  	 WHERE jt.visit_id = j.visit_id 
+															   AND event_name='Purchase') 
+			THEN visit_id END) AS purchases
+FROM joined_tables j
+WHERE product_id IS NOT NULL
+GROUP BY product_category;
+
+SELECT * 
+FROM product_category_details
+ORDER BY product_category;
+```
+
+| **product_category**	|**views**|**cart_adds**|**not_purchases**|**purchases**|
+|-----------------------|---------|-------------|-----------------|-------------|
+|Fish					|4633	  |2789			|674			  |2115			|
+|Luxury					|3032	  |1870			|466			  |1404			|
+|Shellfish				|6204	  |3792	  		|894			  |2898			|
+
+### 1. Which product had the most views, cart adds and purchases?
+
+```sql
+SELECT 	(SELECT product_name FROM product_details ORDER BY views DESC LIMIT 1) || ' - ' || MAX(views) AS max_views,
+		(SELECT product_name FROM product_details ORDER BY cart_adds DESC LIMIT 1) || ' - ' || MAX(cart_adds) AS max_cart_adds,
+		(SELECT product_name FROM product_details ORDER BY purchases DESC LIMIT 1) || ' - ' || MAX(purchases) AS max_purchases
+FROM product_details;
+```
+
+| **max_views**		|**max_cart_adds**		|**max_purchases**	|
+|-------------------|-----------------------|-------------------|
+| Oyster - 1568     | Lobster - 968			|Lobster - 754		|
+
+### 2. Which product was most likely to be abandoned?
+
+```sql
+SELECT 	product_name,
+		not_purchases AS most_abandoned
+FROM product_details 
+ORDER BY not_purchases DESC 
+LIMIT 1;
+```
+
+| **product_name**	|**most_abandoned**	|
+|-------------------|-------------------|
+| Russian Caviar    | 249				|
+
+### 3. Which product had the highest view to purchase percentage?
+
+
 
 
 
