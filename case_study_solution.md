@@ -58,10 +58,57 @@ GROUP BY page_name
 ORDER BY COUNT(*) DESC
 LIMIT 3;
 ```
+
 | **page_name**		|**views**		|
 |-------------------|---------------|
 | All Products      | 3174			|
 | Checkout	        | 2103			|
 | Home Page	        | 1782			|
+
+### 4. What is the number of views and cart adds for each product category?
+
+```sql
+SELECT 	product_category, 
+		COUNT(CASE WHEN event_name='Page View' THEN visit_id END) AS views,
+		COUNT(CASE WHEN event_name='Add to Cart' THEN visit_id END) AS cart_adds
+FROM joined_tables
+WHERE product_category IS NOT NULL
+GROUP BY product_category
+ORDER BY views DESC;
+```
+
+| **product_category**		|**views**		|**views**		|
+|---------------------------|---------------|---------------|
+| Shellfish      			| 6204			|3792			|
+| Fish	        			| 4633			|2789			|
+| Luxury	        		| 3032			|1870			|
+
+### 5. What are the top 3 products by purchases?
+
+```sql
+SELECT 	page_name AS product_name, 
+		COUNT(*) AS purchases
+FROM joined_tables
+WHERE event_name='Add to Cart'
+  AND product_id IS NOT NULL
+  AND visit_id IN (SELECT visit_id
+  				   FROM joined_tables
+				   WHERE event_name='Purchase') 
+GROUP BY page_name
+ORDER BY purchases DESC
+LIMIT 3;
+```
+
+| **product_name**	|**purchases**	|
+|-------------------|---------------|
+| Lobster	        | 754			|
+| Oyster	        | 726			|
+| Crab		        | 719			|
+
+
+# B. Product Funnel Analysis
+
+
+
 
 
