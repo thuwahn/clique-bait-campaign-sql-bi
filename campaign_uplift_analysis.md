@@ -1,6 +1,6 @@
 # A. USER SEGMENTATION
 
-- Funnel-relevant events mapped to users:
+Funnel-relevant events mapped to users:
 
 ```sql
 WITH user_events AS (
@@ -14,7 +14,7 @@ WITH user_events AS (
 )
 ```
 
-- Users were segmented into mutually exclusive exposure groups ('Non-exposed', 'Impression-only', 'Clickers'):
+Users were segmented into mutually exclusive exposure groups ('Non-exposed', 'Impression-only', 'Clickers'):
 
 ```sql
 user_segmentation  AS (
@@ -110,7 +110,7 @@ FROM funnel_metrics;
 
 # C. PURCHASE UPLIFT ANALYSIS
 
-- **Treated_users**: Users who received at least one Ad Impression
+**Treated_users**: Users who received at least one Ad Impression
 
 ```sql
 treated_users AS (
@@ -120,7 +120,7 @@ treated_users AS (
 )
 ```
 
- - **Control_users**: Users who never received any Ad Impression
+**Control_users**: Users who never received any Ad Impression
 
 ```sql
 control_users AS (
@@ -131,7 +131,7 @@ control_users AS (
 )
 ```
 
-- **Purchase_users**: Users who made at least one Purchase event
+**Purchase_users**: Users who made at least one Purchase event
 
 ```sql
 purchase_users AS (
