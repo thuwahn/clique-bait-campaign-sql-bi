@@ -42,7 +42,6 @@ GROUP BY u.user_id, c.campaign_id, c.campaign_name
 
 SELECT *
 FROM user_segmentation;
-)
 ```
 
 | user_id | campaign_id | campaign_name                          | has_impression | has_click | has_purchase | user_segmentation |
