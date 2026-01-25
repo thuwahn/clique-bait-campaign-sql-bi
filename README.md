@@ -23,7 +23,8 @@ There is a total of 5 datasets:
 
 **ER Diagram:**
 
-<img width="715" height="347" alt="127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8" src="https://github.com/user-attachments/assets/36389568-2600-48c3-8b78-bd5af2ab682d" />
+<img width="1292" height="788" alt="image" src="https://github.com/user-attachments/assets/339233e6-5a42-4678-a874-3c7645149468" />
+
 
 
 ## User Segmentation
