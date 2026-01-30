@@ -7,7 +7,4 @@ and purchase stages.
 ## 1. Dashboard Overview
 
 
-
-![Uploading funnel_uplift_analysis_1.jpg…]()
-
-
+![funnel_uplift_analysis_1](https://github.com/user-attachments/assets/f3d000c3-b04a-413f-b161-1439a765a819)
