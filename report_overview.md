@@ -6,7 +6,8 @@ and purchase stages.
 
 ## 1. Dashboard Overview
 
-![Uploading funnel_uplift_analysis-h├¼nh ß║únh-0.jpg…]()
 
+
+![Uploading funnel_uplift_analysis_1.jpg…]()
 
 
