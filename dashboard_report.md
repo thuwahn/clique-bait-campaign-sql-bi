@@ -40,7 +40,8 @@ It accounted for 82% of total impressions (353/426) and maintained a stellar con
 The 50% discount holds strong mass appeal and fits the preferences of the vast majority of users. It trigger impulse buying without raising doubts about product value.
 
 - **Action**:
-  - Reallocate the majority of the ad budget (70-80%) to this campaign to maximize revenue.    - Target Lookalike Audiences based on the behavior of users who clicked or purchased from this campaign to find new high-potential customers.
+    - Reallocate the majority of the ad budget (70-80%) to this campaign to maximize revenue.
+    - Target Lookalike Audiences based on the behavior of users who clicked or purchased from this campaign to find new high-potential customers.
 
 #### 2. The Potential Candidate: BOGOF - Fishing For Compliments
 Despite having the lowest Impressions (66), it achieved the highest Click-Through Rate (87.9%) across the system. 
