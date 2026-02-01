@@ -111,10 +111,13 @@ While volume dropped significantly in April and May (following the March trend),
 - **Action**: Analyze the traffic source for May. Whatever channel brought in those few users delivered the highest quality leads of the year. Replicate that targeting strategy.
 
 ### Product-Specific Strategy
-
-The "Fresh vs. Cured" Divide
-
+#### The "Fresh vs. Cured" Divide
 Revisiting the purchase rates with the full dataset confirms the strategy proposed earlier:
+|Product Group|Avg. Purchase Rate|Customer Behavior|Strategy|
+|------:|---------:|----------------:|--------|
+|Fresh Shellfish|High (~77%)|Decisive. Users see it, want it, and buy it with little hesitation.|Lead Magnets. Use these visuals in all Top-of-Funnel ads to capture attention and drive cheap clicks.|
+|Luxury Cured|Lower (~73-76%)|Hesitant. Users view and add to cart, but are more likely to abandon at checkout (likely due to price).|Retargeting. Use email flows or dynamic retargeting ads offering a small incentive (e.g., "Free Shipping") specifically for users who abandoned these high-margin items.|
+
 --- 
 
 ## 5. Uplift Analysis — Incremental Impact
