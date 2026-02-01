@@ -10,20 +10,20 @@ The Overview page summarizes the entire performance picture across campaigns and
 
 ### Core Insights:
 
-#### 1. Funnel Efficiency
+#### **1. Funnel Efficiency**
 
 The Overall Purchase Conversion Rate is 86.4%  Once a user shows intent (Clicks), the conversion probability is virtually absolute. This indicates that the Landing Page and Checkout flow are fully optimized.
 - **Action**: Stop optimizing the checkout process. Instead, reallocate 100% of the optimization budget to Top-of-Funnel (ToF) activities to drive more Impressions.
 
-#### 2. Consumer Behavior
+#### **2. Consumer Behavior**
 The Half Off and BOGOF campaigns achieved superior conversion rates (86.7% and 84.8% respectively). Customers are far more responsive to "deep discounts" (50%) or "gift-with-purchase" mechanics than to moderate percentage discounts.
 - **Action**: Consider adjusting the content of the 25% Off campaign or switching to more attractive promotional formats to maximize conversion efficiency.
 
-#### 3. Product Performance
+#### **3. Product Performance**
 Lobster leads the catalog with a 77.9% purchase rate, followed closely by Oyster and Kingfish. Customers show a distinct tendency to purchase fresh, easy-to-prepare seafood items. Despite being a premium product, Russian Caviar has the lowest purchase rate (73.7%) on this list.
 - **Action**: Pivot visuals and marketing content to specifically target the "Lux Life" segment rather than mass audiences.  
 
-#### 4. Monthly Performance
+#### **4. Monthly Performance**
 While February showed peak performance, March experienced a drastic ~90% drop in impressions and sales. The decline in sales is not due to diminishing ad quality, but stems directly from the massive drop in Impressions. This pattern confirms the business currently relies too heavily on short-term events or temporary campaigns (likely peaking around Tet/Valentine's Day).
 - **Immediate Investigation**: Determine if the drop is due to budget exhaustion or a natural decline in market interest post-holiday.
 - **Action**: Develop a distributed marketing plan to ensure a baseline of traffic. The goal is to avoid revenue free-fall following peak periods and smooth out these monthly fluctuations.
