@@ -83,8 +83,36 @@ Contrary to a typical post-holiday slump where engagement metrics fade, the camp
 ![funnel_uplift_analysis_3](https://github.com/user-attachments/assets/b771b156-9892-48cb-9941-4b2bf482d961)
 
 ## 4. Product Details — Product Funnel & Performance
-
+The Product Details dashboard provides a granular view of customer engagement from "View" to "Purchase". 
 ![funnel_uplift_analysis_4](https://github.com/user-attachments/assets/799288a7-8db4-4327-8b54-740319fbeaff)
+
+### 1. The Funnel Bottleneck: Browsing vs. Buying
+The biggest drop-off occurs at the initial interest stage. ~40% of users view a product but decide not to add it to their cart. In contrast, once an item is in the cart, the conversion rate is exceptionally high (75.9%).
+- **Action**:
+        - Focus on Product Pages (PDP): The Checkout is optimized. Shift resources to improve Product Detail Pages.
+        - Tactics: Enhance high-resolution imagery, add video content, improve product descriptions, and display social proof (reviews) prominently near the "Add to Cart" button to boost the ATC Rate.
+
+### 2. Portfolio Balance
+The "Monthly Purchased Products Heatmap" reveals a surprising trend: Demand is evenly distributed.
+
+Observation: Sales volumes across the top 8 products are remarkably similar, ranging from 1,469 units (Black Truffle) to 1,568 units (Oyster). There is no "long tail" of unsold inventory; every product is a "hero" product.
+
+**Insight**: The specific menu curation is perfectly aligned with the target audience's tastes. Cross-selling should be effortless because customers clearly value the entire range equally.
+
+- **Action**: Implement "Bundle Deals" aggressively. Since customers like everything equally, pre-set bundles (e.g., "The Full Ocean Platter": Crab + Oyster + Salmon) have a high probability of success and will increase Average Order Value (AOV).
+
+### 3. The "May" Anomaly (High Intent)
+While volume dropped significantly in April and May (following the March trend), May showed a sudden spike in user intent. The Add-to-Cart (ATC) Rate jumped to 69.8% in May, significantly higher than the Q1 average of ~61%.
+
+**Insight**: Although traffic was low, the few users visiting in May were highly qualified and ready to buy.
+
+- **Action**: Analyze the traffic source for May. Whatever channel brought in those few users delivered the highest quality leads of the year. Replicate that targeting strategy.
+
+### Product-Specific Strategy
+
+The "Fresh vs. Cured" Divide
+
+Revisiting the purchase rates with the full dataset confirms the strategy proposed earlier:
 
 ## 5. Uplift Analysis — Incremental Impact
 
