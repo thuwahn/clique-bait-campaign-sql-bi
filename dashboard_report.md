@@ -26,7 +26,7 @@ Lobster leads the catalog with a 77.9% purchase rate, followed closely by Oyster
 While February showed peak performance, March experienced a drastic ~90% drop in impressions and sales. The decline in sales is not due to diminishing ad quality, but stems directly from the massive drop in Impressions. This pattern confirms the business currently relies too heavily on short-term events or temporary campaigns (likely peaking around Tet/Valentine's Day).
 - **Immediate Investigation**: Determine if the drop is due to budget exhaustion or a natural decline in market interest post-holiday.
 - **Action**: Develop a distributed marketing plan to ensure a baseline of traffic. The goal is to avoid revenue free-fall following peak periods and smooth out these monthly fluctuations.
-
+---
 
 ## 2. Campaign Details
 
@@ -76,11 +76,13 @@ Contrary to a typical post-holiday slump where engagement metrics fade, the camp
 - **Action**:
     - **Immediate Investigation**: Audit the ad accounts to distinguish between forced budget caps versus a strategic pause in spending.
     - **Action**: Switch to a consistent marketing plan. Maintain an "Always-On" budget to keep traffic steady and avoid sudden revenue drops.
-
+---
 
 ## 3. User Behavior — Segmentation & Journey Flow
 
 ![funnel_uplift_analysis_3](https://github.com/user-attachments/assets/b771b156-9892-48cb-9941-4b2bf482d961)
+
+--- 
 
 ## 4. Product Details — Product Funnel & Performance
 The Product Details dashboard provides a granular view of customer engagement from "View" to "Purchase". 
@@ -113,6 +115,7 @@ While volume dropped significantly in April and May (following the March trend),
 The "Fresh vs. Cured" Divide
 
 Revisiting the purchase rates with the full dataset confirms the strategy proposed earlier:
+--- 
 
 ## 5. Uplift Analysis — Incremental Impact
 
