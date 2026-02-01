@@ -85,5 +85,4 @@ The following KPIs were defined to evaluate campaign performance:
 | schema.sql                     | Database schema and reference tables |
 | case_study_solution.md         | Answers the original case study questions. |
 | campaign_uplift_analysis.md    | Data cleaning, user segmentation, and funnel & uplift metric computation using CTEs and conditional aggregation. |
-| python                         | Exploratory data analysis and validation, including distribution analysis and time-to-purchase patterns. |
 | funnel_uplift_analysis.pbix    | Power BI dashboard covering campaign funnel performance, user behavior analytics, product-level conversion analysis, and uplift measurements across campaign groups.  |
