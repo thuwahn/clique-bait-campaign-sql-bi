@@ -6,6 +6,7 @@ and purchase stages.
 
 ## 1. Dashboard Overview
 The Overview page summarizes the entire performance picture across campaigns and products.
+
 <img width="1527" height="856" alt="image" src="https://github.com/user-attachments/assets/c162357c-5ecb-4330-841d-440064f4eb37" />
 
 
@@ -31,6 +32,7 @@ While February showed peak performance, March experienced a drastic ~90% drop in
 ## 2. Campaign Details
 
 This page analyzes the performance of three marketing campaigns run from January to March:
+
 ![funnel_uplift_analysis-hình ảnh-1](https://github.com/user-attachments/assets/59d7dd6f-fce5-48d4-98d9-ba7e6ae4512d)
 
 ### Campaign Overview
@@ -79,8 +81,28 @@ Contrary to a typical post-holiday slump where engagement metrics fade, the camp
 ---
 
 ## 3. User Behavior — Segmentation & Journey Flow
+The User Behavior dashboard provides a comprehensive view of how different customer segments interact with the brand. 
 
 ![funnel_uplift_analysis_3](https://github.com/user-attachments/assets/b771b156-9892-48cb-9941-4b2bf482d961)
+
+### 1. Clickers: 
+The Purchase Rate is 98.1% and the Clicker Drop Rate is a negligible 2.4%.
+
+Once a user clicks on an ad, the purchase is virtually guaranteed. This proves that the Ad Copy and Landing Page are perfectly aligned.
+
+### 2. Campaign Behavioral Analysis:
+The Half Off campaign has the most frictionless, boasting a record-low 0.6% Drop Rate.
+- **Action**: Pour 70% of the budget into "Half Off"
+The BOGOF campaign excels in brand memory.  It achieved a perfect 100% Conversion Rate for "Impression-only" users (those who saw the ad but didn't click immediately), making it the most powerful tool for planting brand awareness.
+- **Action**: Use "BOGOF" creatives for broad targeting (Top of Funnel). It is the most effective at sticking in customers’ minds
+The 25% Off generates the highest friction with a 6.6% Drop Rate—11 times higher than the "Half Off" campaign. It actively repels users and has the lowest brand recall efficiency.
+- **Action**: Eliminate "25% Off" Immediately. It is dead weight.
+
+### 3. Collapse Data regarding Non-exposed users in March
+Non-exposed purchases collapsed from 60 and 61 orders to 12 orders in March.
+
+**Insight**: The revenue drop in March occurred not only in the Paid channel but also in the Organic channel. Paid ads act as a catalyst. In Jan/Feb, high ad visibility drove brand awareness, leading to high organic search volume. When ad impressions were cut in March, brand visibility vanished, causing the organic stream to dry up immediately.
+- **Action**: Maintain a baseline budget for Display Ads campaigns to sustain brand presence. This is essential to feed the "Non-exposed" funnel.
 
 --- 
 
