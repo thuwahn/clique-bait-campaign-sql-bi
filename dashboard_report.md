@@ -92,9 +92,11 @@ Once a user clicks on an ad, the purchase is virtually guaranteed. This proves t
 
 ### 2. Campaign Behavioral Analysis:
 The Half Off campaign has the most frictionless, boasting a record-low 0.6% Drop Rate.
-- **Action**: Pour 70% of the budget into "Half Off"
+- **Action**: Pour 70% of the budget into "Half Off".
+  
 The BOGOF campaign excels in brand memory.  It achieved a perfect 100% Conversion Rate for "Impression-only" users (those who saw the ad but didn't click immediately), making it the most powerful tool for planting brand awareness.
-- **Action**: Use "BOGOF" creatives for broad targeting (Top of Funnel). It is the most effective at sticking in customers’ minds
+- **Action**: Use "BOGOF" creatives for broad targeting (Top of Funnel). It is the most effective at sticking in customers’ minds.
+  
 The 25% Off generates the highest friction with a 6.6% Drop Rate—11 times higher than the "Half Off" campaign. It actively repels users and has the lowest brand recall efficiency.
 - **Action**: Eliminate "25% Off" Immediately. It is dead weight.
 
