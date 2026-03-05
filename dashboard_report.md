@@ -37,7 +37,7 @@ This page analyzes the performance of three marketing campaigns run from January
 
 ### Campaign Overview
 #### 1. The Revenue Star: Half Off - Treat Your Shellf(ish)
-It accounted for 82% of total impressions (353/426) and maintained a stellar conversion rate (CR) of 68%. The Click Abandonment rate was virtually zero (only 2 drops out of 308 clicks).
+It accounted for 82% of total impressions (353/426) and maintained a stellar conversion rate (CR) of 86%. The Click Abandonment rate was virtually zero (only 2 drops out of 308 clicks).
 
 The 50% discount holds strong mass appeal and fits the preferences of the vast majority of users. It trigger impulse buying without raising doubts about product value.
 
