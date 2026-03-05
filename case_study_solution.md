@@ -26,6 +26,9 @@ SELECT 	e.visit_id,
     	e.page_id,
     	p.page_name,
     	ei.event_name,
+		e.sequence_number,
+		p.product_category,
+		p.product_id,
     	e.event_time
 FROM events e
 JOIN page_hierarchy p ON e.page_id = p.page_id
